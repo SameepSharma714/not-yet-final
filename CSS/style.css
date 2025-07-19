@@ -1,871 +1,1490 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-
-   
-}
-body{
-    overflow-x: hidden;
-    
-}
-html{
-    scroll-behavior: smooth;
-}
-.mainmaincontainer{
-    background-color: #1A1A1D;
-    height: 250vh;
-    width: 100vw;
-    overflow-x: hidden;
-}
-.mainfirst{
-    display: flex;
-    gap: 450px;
-    justify-content: center;
-    margin-top: 2%;
-}
-.first1{
-    display: flex;
-    gap: 10px;
-}
-.first1 i{
-font-size: 25px;
-margin-top: 3%;
-}
-.first1 h1{
-    font-size: 30px;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  textarea {
+    background-color: #1a1a1d;
+    height: 100px;
+    width: 320px;
+    border: white 0.01px solid;
     color: white;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5%;
+  }
+  
+
 }
-ul{
-    display: flex;
-    gap: 50px;
+html {
+  scroll-behavior: smooth;
 }
-a{
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
+.mainmaincontainer {
+  background-color: #1a1a1d;
+  height: 400vh;
+  width: 100vw;
 }
-li{
-    list-style: none;
+.mainfirst {
+  display: flex;
+  gap: 450px;
+  justify-content: center;
+  margin-top: 2%;
 }
-li:hover{
-    text-decoration: underline red;
-    transition: 0.5s;
+.first1 {
+  display: flex;
+  gap: 10px;
 }
-.mainsecond{
-    display: flex;
+.first1 i {
+  font-size: 25px;
+  margin-top: 3%;
+}
+.first1 h1 {
+  font-size: 30px;
+  color: white;
+}
+ul {
+  display: flex;
+  gap: 50px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+li {
+  list-style: none;
+}
+li:hover {
+  text-decoration: underline red;
+  transition: 0.5s;
+}
+.mainsecond {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+.second1 h1 {
+  color: whitesmoke;
+  font-size: 45px;
+}
+.second1 h3 {
+  font-size: 30px;
+  color: white;
+  margin-top: 3%;
+}
+.second1 span {
+  color: rgb(54, 54, 237);
+}
+.second1 pre {
+  color: rgb(178, 200, 248);
+  font-size: 25px;
+  margin-top: 2%;
+}
+.second11 {
+  margin-top: 5%;
+}
+.second11 button {
+  height: 50px;
+  width: 200px;
+  background-color: purple;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+}
+.second1 button p {
+  font-size: 20px;
+}
+.second1 button:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.second2 img {
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+#mainthird {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 8%;
+}
+#mainthird h1 {
+  color: wheat;
+}
+.third1 p {
+  color: white;
+  font-size: 20px;
+  margin-top: 1%;
+}
+.mainfourth {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 3%;
+}
+.mainfourth img:hover {
+  scale: 1.05;
+  transition: 1.5s;
+  overflow-y: hidden;
+}
+.mainfifth {
+  color: white;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mainfifth h2 {
+  margin-top: 2%;
+}
+.mainsixth {
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+}
+.sixth1 p {
+  font-size: 22px;
+  margin-top: 2%;
+}
+.sixth2 {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  overflow-y: hidden;
+}
+.sixth3 {
+  border: 2px solid white;
+  height: 300px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 1%;
+}
+.sixth3:hover {
+  scale: 1.07;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 1.2s;
+}
+.sixth3 p {
+  color: black;
+  margin-top: 3%;
+  font-size: 20px;
+}
+.sixth4 {
+  border: 2px solid white;
+  height: 300px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 1%;
+}
+.sixth4:hover {
+  scale: 1.07;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 1.2s;
+  overflow-x: hidden;
+}
+.sixth4 p {
+  color: black;
+  margin-top: 3%;
+  font-size: 20px;
+}
+.sixth5 {
+  border: 2px solid white;
+  height: 300px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 1%;
+}
+.sixth5 p {
+  text-align: center;
+}
+.sixth5:hover {
+  scale: 1.07;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 1.2s;
+}
+.sixth5 p {
+  color: black;
+  margin-top: 3%;
+  font-size: 20px;
+}
+.seventh {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.seventh p {
+  font-size: 20px;
+  margin-top: 1%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seventh1 {
+  background-color: black;
+  height: 700px;
+  width: 600px;
+  margin-top: 2%;
+  border-radius: 5px;
+}
+.seventh1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.seventh input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  background-color: black;
+  border: white 0.01px solid;
+  color: white;
+  font-size: 20px;
+
+  border-radius: 5px;
+}
+.seventh input:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.seventh1 button {
+  height: 50px;
+  width: 330px;
+  margin-left: 2%;
+  margin-top: 5%;
+  background-color: navy;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+}
+.seventh1 button:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+@media only screen and (max-width: 1024px) {
+  .mainfirst {
     gap: 200px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
-}
-.second1 h1{
-    color: whitesmoke;
-    font-size: 45px;
-}
-.second1 h3{
-    font-size: 30px;
-    color: white;
-    margin-top: 3%;
-}
-.second1 span{
-    color: rgb(54, 54, 237);
-}
-.second1 pre{
-    color: rgb(178, 200, 248);
-    font-size: 25px;
-    margin-top: 2%;
-}
-.second11{
-    margin-top: 5%;
-}
-.second11 button{
-    height: 50px;
-    width: 200px;
-    background-color: purple;
-    color: white;
-    border: transparent;
-    border-radius: 5px;
-}
-.second1 button p{
-    font-size: 20px;
-}
-.second1 button:hover{
-    opacity: 0.7;
-    transition: 0.5s;
-}
+  }
 
-.second2 img{
-    border-radius: 50%;
-    background-position: center;
-    background-size: cover;
-}
- #mainthird{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 8%;
-}
-#mainthird h1{
-    color: wheat;
-}
-.third1 p{
-    color: white;
-    font-size: 20px;
-    margin-top: 1%;
-}
-.mainfourth{
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-    margin-top: 3%;
-    overflow-y: hidden;
-}
-.mainfourth img{
-    height: 250px;
-    width: 250px;
-}
-
-.mainfourth img:hover{
-    scale: 1.05;
-    transition: 1.5s;
-    overflow-y: hidden;
-}
-.mainfifth{
-    color: white;
-    margin-top: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.mainfifth h2{
-    margin-top: 2%;
-}
-.mainsixth{
-    color: white;
-    margin-top: 5%;
-    text-align: center;
-}
-.sixth1 p{
+  .mainsecond {
+    gap: 70px;
+  }
+  a {
     font-size: 22px;
-    margin-top: 2%;
+  }
+  .mainsecond h1 {
+    font-size: 35px;
+  }
 
-}
-.sixth2{
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-    overflow-y: hidden;
-    
-}
-.sixth3{
-border: 2px solid white;
-height: 300px;
-width: 400px;
-background-color: white;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-border-radius: 15px;
-padding: 1%;
-}
-.sixth3:hover{
-    scale: 1.07;
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transition: 1.2s;
-}
-.sixth3 p{
-    color: black;
-    margin-top: 3%;
-    font-size: 20px;
-}
-    .sixth4{
-        border: 2px solid white;
-        height: 300px;
-        width: 400px;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px;
-        padding: 1%;
-        }
-        .sixth4:hover{
-            scale: 1.07;
-            transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            transition: 1.2s;
-            overflow-x: hidden;
-        }
-        .sixth4 p{
-            color: black;
-            margin-top: 3%;
-            font-size: 20px;
-        }
-        .sixth5{
-            border: 2px solid white;
-            height: 300px;
-            width: 400px;
-            background-color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border-radius: 15px;
-            padding: 1%;
-            }
-            .sixth5 p{
-                text-align: center;
-            }
-            .sixth5:hover{
-                scale: 1.07;
-                transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-                transition: 1.2s;
-            
-            }
-            .sixth5 p{
-                color: black;
-                margin-top: 3%;
-                font-size: 20px;
-            }
-.seventh{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-}
-.seventh p{
-font-size: 20px;
-margin-top: 1%;
-}
-.seventh1{
-    background-color: black;
-    height: 700px;
-    width: 600px;
-    margin-top: 2%;
-    border-radius: 5px;
-}
-.seventh1{
-display: flex;
-justify-content:center;
-flex-direction: column;
-text-align: center;
-}
-.seventh input{
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-padding: 5%;
-margin-top: 5%;
-background-color: black;
-border: white 0.01px solid;
-color: white;
-font-size: 20px;
-
-border-radius: 5px;
-}
-.seventh input:hover{
-    scale: 1.1;
-    transition: 0.5s;
-}
-.seventh1 input{
-    height:50px;
-    width: 290px;
+  .mainsecond h3 {
     font-size: 25px;
-    }
-.seventh1 button{
-    height: 50px;
-    width: 330px;
-    margin-left: 2%;
-    margin-top: 15%;
-    background-color: navy;
-    color: white;
-    border: transparent;
-    border-radius: 5px;
-}
-#hire{
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-}
+  }
+  .mainsecond pre {
+    font-size: 25px;
+  }
 
-.seventh1 button:hover{
-    opacity: 0.8;
-    transition: 0.5s;
-   
-}
-
-footer{
-margin-top: 5%;
-color: white;
-display: flex;
-justify-content: center;
-gap: 230px;
-background-color: black;
-padding-top: 2%;
-
-}
-.footer1{
-display: flex;
-gap: 10px;
-    
-}
-.footer1 img{
-    border-radius: 50%;
-    height: 60px;
-width: 60px;
-margin-top: -5%;
-}
-.footer2 p{
-font-size: 20px;
-}
-.footer3{
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-}
-.footer3 i{
-font-size: 30px;
-}
-.footer3 i:hover{
- margin-top: -10px;
-    transition: 1.5s;
-}
-@media only screen and (max-width:1440px){
-.mainfirst h1{
-    font-size: 43px;
-}
-.mainfirst{
-    gap: 340px;
-}
-.first1 i{
-    font-size: 35px;
-    
-}
-ul a{
-    font-size: 30px;
-}
-.mainsecond{
-    gap: 100px;
-}
-.mainsecond h1{
-    font-size: 50px;
-}
-.mainsecond h3{
-    font-size: 40px;
-}
-.mainsecond pre{
-    font-size: 32px;
-}
-.second2 img{
-    height: 450px;
-    width: 450px;
-}
-.third1 h1{
-    font-size: 45px;
-}
-.third1 p{
-    font-size: 30px;
-}
-.mainfourth{
-    gap: 200px;
-}
-.mainfourth img{
-    height: 200px;
-    width: 200px;
-    
-}
-.mainfifth h1{
-    font-size: 45px;
-}
-.mainfifth h2{
-    font-size: 35px;
-}
-.sixth1 h1{
-    font-size: 45px;
-
-}
-
-.sixth1 p{
-    font-size: 30px;
-}
-.sixth2{
-    margin-top: 5%;
-    gap: 30px;
-}
-.seventh h1{
-    font-size: 45px;
-}
-.seventh p{
-    font-size: 30px;
-}
-.seventh1 h2{
-    font-size: 35px;
-}
-#hire{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.seventh1 input{
-    height: 60px;
-    width:280px;
-}
-.seventh1 input{
-   
-    font-size: 30px;
-}
-.seventh1 a button{
-    height: 50px;
+  .second2 img {
+    height: 350px;
     width: 350px;
-
-}
-
-footer{
-    margin-top: 5%;
-    color: white;
-    display: flex;
+  }
+  .sixth2 {
+    gap: 25px;
     justify-content: center;
-    gap: 100px;
-    background-color: black;
-    padding-top: 3%;
-    padding-bottom: 1%;
-    }
-    .footer1{
-    display: flex;
-    gap: 20px;
-        
-    }
-    .footer1 img{
-        border-radius: 50%;
-        margin-top: -8%;
-    
-    }
-    .footer2 p{
-    font-size: 28px;
-    }
-    .footer3{
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-    }
-    .footer3 i{
-    font-size: 35px;
-    }
-    .footer3 i:hover{
-        scale: 1.2;
-        transition: 0.5s;
-    }
-}
-@media only screen and (max-width:1024px){
-    .mainfirst{
-        gap: 150px;
-    }
-    .mainfirst h1{
-        font-size: 35px;
-    }
-    .first1 i{
-        font-size: 30px;
-    }
-    .mainsecond{
-        gap: 70px;
-    }
- ul a{
-font-size: 24px;
-    }
-    .mainsecond{
-        gap: 50px;
-    }
-    .mainsecond h1{
-     font-size: 33px;
-       
-    }
-
-    .mainsecond h3{
-        font-size: 25px;
-    }
-    .mainsecond pre{
-        font-size: 23px;
-    }
-    
-    .second2 img{
-        height: 325px;
-        width: 325px;
-    }
-.third1 h1{
-font-size: 35px;
-}
-.third1 p{
-    font-size: 23px;
-}
-.mainfourth{
-    gap: 100px;
-}
-.mainfourth img{
-    height: 150px;
-    width: 150px;
-}
-.mainfifth h1{
-    font-size: 35px;
-}
-.mainfifth h2{
-    font-size: 30px;
-}
-.sixth1 h1{
-    font-size: 35px;
-}
-.sixth1 p{
-    font-size: 25px;
-}
-
-    .sixth2{
-        gap:25px;
-        justify-content: center;
-        align-items: center;
-    }
-    .sixth3{
-        height: 300px;
-        width: 275px;
-       }
-    .sixth4{
-        height: 300px;
-        width: 275px;
-    }
-    .sixth4 img{
-        height: 120px;
-    }
-    .sixth5{
-        height: 300px;
-        width: 275px;
-       
-    }
-    .sixth5 p{
-        font-size: 18px;
-    }
-    .sixth5 img{
-        height: 90px;
-        width: 200px;
-    }
-    .mainfifth{
-        margin-top: 4%;
-    }
-    .seventh h1{
-        font-size: 35px;
-    }
-    .seventh p{
-        font-size: 25px;
-    }
-    .seventh1 h2{
-        font-size: 30px;
-    }
-    .seventh1 input{
-        height:50px;
-        width: 290px;
-        font-size: 25px;
-        }
-        #hire{
-            display: flex;
-            justify-content: center;
-          
-        }
-         
-.mainsixth{
-
-    margin-top: 3%;
-}
-
-footer{
-    margin-top: 5%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    background-color: black;
-    padding-top: 3%;
-    padding-bottom: 1%;
-    }
-    .footer1{
-    display: flex;
-    gap: 10px;
-        
-    }
-    .footer1 h1{
-        font-size: 25px;
-    }
-    .footer1 img{
-        border-radius: 50%;
-        margin-top: -5%;
-    
-    }
-    .footer1 img{
-        height: 50px;
-        width: 50px;
-    }
-    .footer2 p{
-    font-size: 20px;
-    }
-    .footer3{
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-    }
-    .footer3 i{
-    font-size: 26px;
-    }
-    .footer3 i:hover{
-        scale: 1.2;
-        transition: 0.5s;
-    }
-}
-@media only screen and (max-width:768px){
-    .mainmaincontainer{
-        height: 300vh;
-    }
-.mainfirst{
-    gap: 100px;
-}
- ul{
-    gap: 30px;
-    
-}
-.first1 h1{
-    font-size: 30px;
-}
-.first1 i{
-    font-size: 25px;
-}
-ul a{
-
-    font-size: 20px;
-}
-.second1 h1{
-font-size: 30px;
-}
-.mainsecond{
-    gap: 50px;
-}
-.second1 pre{
+    align-items: center;
+  }
+  .sixth3 {
+    height: 300px;
+    width: 275px;
+  }
+  .sixth4 {
+    height: 300px;
+    width: 275px;
+  }
+  .sixth4 img {
+    height: 120px;
+  }
+  .sixth5 {
+    height: 300px;
+    width: 275px;
+  }
+  .sixth5 p {
     font-size: 18px;
+  }
+  .sixth5 img {
+    height: 90px;
+    width: 200px;
+  }
+  .mainfifth {
+    margin-top: 4%;
+  }
+  .mainsixth {
+    margin-top: 3%;
+  }
 }
-.second2 img{
+@media only screen and (max-width: 768px) {
+  .mainfirst {
+    gap: 110px;
+  }
+  ul {
+    gap: 30px;
+  }
+  .first1 h1 {
+    font-size: 25px;
+  }
+  a {
+    font-size: 20px;
+  }
+  .second1 h1 {
+    font-size: 30px;
+  }
+  .mainsecond {
+    gap: 50px;
+  }
+  .second1 pre {
+    font-size: 18px;
+  }
+  .second2 img {
     height: 250px;
     width: 250px;
-}
-.third1 h1{
+  }
+  .third1 h1 {
     font-size: 30px;
-}
+  }
 
-.third1 p{
+  .third1 p {
     font-size: 20px;
-}
+  }
 
-.mainfourth{
+  .mainfourth {
     gap: 90px;
-}
-.mainfourth img{
+  }
+  .mainfourth img {
     height: 125px;
-  
-}
-.mainfifth h1{
+  }
+  .mainfifth h1 {
     font-size: 28px;
-}
-.sixth2{
+  }
+  .sixth2 {
     gap: 20px;
-}
-.sixth3{
-height: 225px;
-width: 200px;
-}
-.sixth3 p{
+  }
+  .sixth3 {
+    height: 225px;
+    width: 200px;
+  }
+  .sixth3 p {
     font-size: 15px;
-}
-.sixth3 img{
+  }
+  .sixth3 img {
     height: 40px;
-}
-.sixth4{
+  }
+  .sixth4 {
     height: 225px;
     width: 200px;
-}
-.sixth4 p{
+  }
+  .sixth4 p {
     font-size: 15px;
-}
-.sixth5{
+  }
+  .sixth5 {
     height: 225px;
     width: 200px;
-}
-.sixth5 img{
+  }
+  .sixth5 img {
     height: 50px;
-}
-.sixth5 p{
+  }
+  .sixth5 p {
     font-size: 13px;
+  }
 }
-.seventh1 input{
-    height:50px;
-    width: 280px;
-    }
-    #hire{
-        display: flex;
-        justify-content: center;
-    }
-    footer{
-        margin-top: 5%;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        background-color: black;
-        padding-top: 4%;
-        padding-bottom: 3%;
-        }
-        .footer1{
-        display: flex;
-        gap: 10px;
-            
-        }
-        .footer1 h1{
-            font-size: 23px;
-            margin-top: 7%;
-        }
-       
-        .footer1 img{
-            height: 80px;
-            width: 80px;
-
-        }
-        .footer2 p{
-        font-size: 23px;
-        }
-        .footer3{
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-        }
-        .footer3 i{
-        font-size: 25px;
-       
-        }
-        .footer3 i:hover{
-            scale: 1.2;
-            transition: 0.5s;
-        }
-    }
- 
-
-@media only screen and (max-width:426px){
-   .first1 h1{
+@media only screen and (max-width: 426px) {
+  .first1 h1 {
     font-size: 35px;
-   }
-   .mainfirst{
+  }
+  .mainfirst {
     gap: 170px;
-
-   }
-   ul{
-flex-direction: column;
-display: none;
-   }
-   .mainsecond{
+  }
+  ul {
+    flex-direction: column;
+    display: none;
+  }
+  .mainsecond {
     gap: 5px;
     justify-content: center;
     flex-direction: column;
-   }
-    .second1 pre{
-        font-size: 17px;
-    }
-    .second2 img{
-        height: 250px;
-        width: 250px;
-        margin-top: 5%;
-    }
-    .second11{
-        display: flex;
-        justify-content: center;
-    }
-    .second11 button{
-width: 220px;
-    }
-    .mainthird{
-        margin-top: 5%;
-    }
-    .mainfourth{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 45px;
-        margin-top: 5%;
-    }
-    .mainfourth img{
-        height: 150px;
-        width: 150px;
-    }
-    .mainfifth{
-        margin-top: 10%;
-    }
-    .mainsixth{
-        margin-top: 5%;
-    }
-    .sixth1 p{
-font-size: 18px;
-    }
-    .sixth1 h1{
-        font-size: 24px;
-    }
-    .sixth2{
-        display: flex;
-        flex-direction: column;
-        margin-top: 5%;
-
-    }
-
- 
-    .sixth3{
-height:300px;
-width: 300px;
-    }
-    .sixth4{
-        height:300px;
-        width: 300px;
-    }
-    .sixth5{
-        height:300px;
-        width: 300px;
-    }
-.seventh{
-    margin-top: 15%;
-}
-.seventh p{
+  }
+  .second1 pre {
+    font-size: 17px;
+  }
+  .second2 img {
+    height: 250px;
+    width: 250px;
     margin-top: 5%;
-}
-.seventh h1{
-font-size: 25px;
-}
-.seventh1{
-    margin-top: 5%;
-}
-.seventh1 input{
-height:40px;
-width: 260px;
-font-size: 22px;
-}
-#hire button{
-    width: 300px;
-}
-#hire{
+  }
+  .second11 {
     display: flex;
     justify-content: center;
+  }
+  .second11 button {
+    width: 220px;
+  }
+  .mainthird {
+    margin-top: 5%;
+  }
+  .mainfourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 5%;
+  }
+  .mainfourth img {
+    height: 200px;
+    width: 200px;
+  }
+  .mainfifth {
+    margin-top: 10%;
+  }
+  .mainsixth {
+    margin-top: 5%;
+  }
+  .sixth1 p {
+    font-size: 18px;
+  }
+  .sixth1 h1 {
+    font-size: 24px;
+  }
+  .sixth2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .sixth3 {
+    height: 300px;
+    width: 300px;
+  }
+  .sixth4 {
+    height: 300px;
+    width: 300px;
+  }
+  .sixth5 {
+    height: 300px;
+    width: 300px;
+  }
+  .seventh {
+    margin-top: 15%;
+  }
+  .seventh p {
+    margin-top: 5%;
+  }
+  .seventh h1 {
+    font-size: 25px;
+  }
+  .seventh1 {
+    margin-top: 5%;
+  }
+ 
+    .seventh1  textarea {
+    height: 100px;
+    width: 290px;
+    font-size: 10px;
+  }
+  
+  .seventh1 input {
+    height: 25px;
+  }
 }
-footer{
+
+@media only screen and (max-width: 376px) {
+  .second1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .second1 h1 {
+    font-size: 25px;
+  }
+  .second1 pre {
+    font-size: 15px;
+  }
+  .second11 button {
+    width: 170px;
+  }
+  .third1 h1 {
+    font-size: 25px;
+  }
+  .third1 p {
+    font-size: 15px;
+    margin-top: 5%;
+  }
+  .mainfourth {
+    margin-top: 15%;
+  }
+  .mainfourth img {
+    height: 170px;
+    width: 170px;
+  }
+  .mainfifth h1,
+  h2 {
+    font-size: 25px;
+  }
+  .mainsixth h1 {
+    font-size: 25px;
+  }
+     .seventh1  textarea {
+    height: 100px;
+    width: 240px;
+    font-size: 10px;
+  }
+  .seventh1 input {
+    width: 220px;
+  }
+  .seventh1 button {
+    width: 250px;
+    margin-left: -5%;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .mainsecond {
+    gap: 30px;
+  }
+  .second1 h3 {
+    font-size: 23px;
+  }
+  .second1 pre {
+    font-size: 13px;
+  }
+  .second11 button {
+    height: 40px;
+    width: 130px;
+  }
+  .second2 img {
+    height: 200px;
+    width: 200px;
+  }
+  .third1 {
+    margin-top: 5%;
+  }
+  .mainfourth {
+    gap: 40px;
+  }
+  .mainfourth img {
+    height: 125px;
+    width: 125px;
+  }
+  .mainfifth h1,
+  h2 {
+    font-size: 23px;
+  }
+  .sixth1 p {
+    font-size: 15px;
+  }
+  .sixth3 {
+    height: 250px;
+    width: 250px;
+  }
+
+  .sixth4 {
+    height: 250px;
+    width: 250px;
+  }
+  .sixth5 {
+    height: 250px;
+    width: 250px;
+  }
+  .seventh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+     .seventh1  textarea {
+    height: 100px;
+    width: 220px;
+    font-size: 10px;
+  }
+  .seventh h1 {
+    font-size: 23px;
+  }
+  .seventh p {
+    font-size: 18px;
+  }
+  .seventh input {
+    height: 20px;
+    width: 200px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+.mainmaincontainer {
+  background-color: #1a1a1d;
+  height: 250vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.mainfirst {
+  display: flex;
+  gap: 450px;
+  justify-content: center;
+  margin-top: 2%;
+}
+.first1 {
+  display: flex;
+  gap: 10px;
+}
+.first1 i {
+  font-size: 25px;
+  margin-top: 3%;
+}
+.first1 h1 {
+  font-size: 30px;
+  color: white;
+}
+ul {
+  display: flex;
+  gap: 50px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+li {
+  list-style: none;
+}
+li:hover {
+  text-decoration: underline red;
+  transition: 0.5s;
+}
+.mainsecond {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+.second1 h1 {
+  color: whitesmoke;
+  font-size: 45px;
+}
+.second1 h3 {
+  font-size: 30px;
+  color: white;
+  margin-top: 3%;
+}
+.second1 span {
+  color: rgb(54, 54, 237);
+}
+.second1 pre {
+  color: rgb(178, 200, 248);
+  font-size: 25px;
+  margin-top: 2%;
+}
+.second11 {
+  margin-top: 5%;
+}
+.second11 button {
+  height: 50px;
+  width: 200px;
+  background-color: purple;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+}
+.second1 button p {
+  font-size: 20px;
+}
+.second1 button:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.second2 img {
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+#mainthird {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+#mainthird h1 {
+  color: wheat;
+  font-size: 30px;
+}
+.third1 p {
+  color: white;
+  font-size: 30px;
+  margin-top: 1%;
+}
+.mainfourth {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 50px 50px;
+  gap: 200px;
+  justify-content: center;
+  margin-top: 5%;
+}
+.mainfourth img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.mainfourth img:hover {
+  margin-top: -10%;
+  transition: 0.5s;
+}
+.mainfifth {
+  color: white;
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mainfifth h2 {
+  margin-top: 2%;
+}
+.mainsixth {
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+}
+.sixth1 p {
+  font-size: 22px;
+  margin-top: 2%;
+}
+.sixth2 {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  overflow-y: hidden;
+}
+.sixth3 {
+  border: 2px solid white;
+  height: 300px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 1%;
+}
+.sixth3:hover {
+  scale: 1.07;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 1.2s;
+}
+.sixth3 p {
+  color: black;
+  margin-top: 3%;
+  font-size: 20px;
+}
+.sixth4 {
+  border: 2px solid white;
+  height: 300px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 1%;
+}
+.sixth4:hover {
+  scale: 1.07;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 1.2s;
+  overflow-x: hidden;
+}
+.sixth4 p {
+  color: black;
+  margin-top: 3%;
+  font-size: 20px;
+}
+.sixth5 {
+  border: 2px solid white;
+  height: 300px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 1%;
+}
+.sixth5 p {
+  text-align: center;
+}
+.sixth5:hover {
+  scale: 1.07;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 1.2s;
+}
+.sixth5 p {
+  color: black;
+  margin-top: 3%;
+  font-size: 20px;
+}
+.seventh {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.seventh p {
+  font-size: 20px;
+  margin-top: 1%;
+}
+.seventh1 {
+  background-color: black;
+  height: 700px;
+  width: 600px;
+  margin-top: 2%;
+  border-radius: 5px;
+}
+.seventh1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.seventh input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  margin-top: 5%;
+  background-color: black;
+  border: white 0.01px solid;
+  color: white;
+  font-size: 20px;
+
+  border-radius: 5px;
+}
+.seventh input:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+.seventh1 input {
+  height: 50px;
+  width: 290px;
+  font-size: 25px;
+}
+.seventh1 button {
+  height: 50px;
+  width: 330px;
+  margin-left: 2%;
+  margin-top: 15%;
+  background-color: navy;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+}
+#hire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seventh1 button:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+footer {
+  margin-top: 5%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 230px;
+  background-color: black;
+  padding-top: 2%;
+}
+.footer1 {
+  display: flex;
+  gap: 10px;
+}
+.footer1 img {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-top: -5%;
+}
+.footer2 p {
+  font-size: 20px;
+}
+.footer3 {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.footer3 i {
+  font-size: 30px;
+}
+.footer3 i:hover {
+  margin-top: -10px;
+  transition: 1.5s;
+}
+@media only screen and (max-width: 1440px) {
+  .mainfirst h1 {
+    font-size: 43px;
+  }
+  .mainfirst {
+    gap: 340px;
+  }
+  .first1 i {
+    font-size: 35px;
+  }
+  ul a {
+    font-size: 30px;
+  }
+  .mainsecond {
+    gap: 100px;
+  }
+  .mainsecond h1 {
+    font-size: 50px;
+  }
+  .mainsecond h3 {
+    font-size: 40px;
+  }
+  .mainsecond pre {
+    font-size: 32px;
+  }
+  .second2 img {
+    height: 450px;
+    width: 450px;
+  }
+  .third1 h1 {
+    font-size: 45px;
+  }
+  .third1 p {
+    font-size: 30px;
+  }
+  .mainfourth {
+    gap: 200px;
+  }
+  .mainfourth img {
+    height: 200px;
+    width: 200px;
+  }
+  .mainfifth h1 {
+    font-size: 45px;
+  }
+  .mainfifth h2 {
+    font-size: 35px;
+  }
+  .sixth1 h1 {
+    font-size: 45px;
+  }
+
+  .sixth1 p {
+    font-size: 30px;
+  }
+  .sixth2 {
+    margin-top: 5%;
+    gap: 30px;
+  }
+  .seventh h1 {
+    font-size: 45px;
+  }
+  .seventh p {
+    font-size: 30px;
+  }
+  .seventh1 h2 {
+    font-size: 35px;
+  }
+  #hire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .seventh1 input {
+    height: 60px;
+    width: 280px;
+  }
+  .seventh1 input {
+    font-size: 30px;
+  }
+  .seventh1 a button {
+    height: 50px;
+    width: 350px;
+  }
+
+  footer {
+    margin-top: 5%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: black;
+    padding-top: 3%;
+    padding-bottom: 1%;
+  }
+  .footer1 {
+    display: flex;
+    gap: 20px;
+  }
+  .footer1 img {
+    border-radius: 50%;
+    margin-top: -8%;
+  }
+  .footer2 p {
+    font-size: 28px;
+  }
+  .footer3 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .footer3 i {
+    font-size: 35px;
+  }
+  .footer3 i:hover {
+    scale: 1.2;
+    transition: 0.5s;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .mainfirst {
+    gap: 150px;
+  }
+  .mainfirst h1 {
+    font-size: 35px;
+  }
+  .first1 i {
+    font-size: 30px;
+  }
+  .mainsecond {
+    gap: 70px;
+  }
+  ul a {
+    font-size: 24px;
+  }
+  .mainsecond {
+    gap: 50px;
+  }
+  .mainsecond h1 {
+    font-size: 33px;
+  }
+
+  .mainsecond h3 {
+    font-size: 25px;
+  }
+  .mainsecond pre {
+    font-size: 23px;
+  }
+
+  .second2 img {
+    height: 325px;
+    width: 325px;
+  }
+  .third1 h1 {
+    font-size: 35px;
+  }
+  .third1 p {
+    font-size: 23px;
+  }
+  .mainfourth {
+    gap: 100px;
+  }
+  .mainfourth img {
+    height: 120px;
+    width: 120px;
+  }
+
+  .mainfifth h1 {
+    font-size: 35px;
+  }
+  .mainfifth h2 {
+    font-size: 30px;
+  }
+  .sixth1 h1 {
+    font-size: 35px;
+  }
+  .sixth1 p {
+    font-size: 25px;
+  }
+
+  .sixth2 {
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  .sixth3 {
+    height: 300px;
+    width: 275px;
+  }
+  .sixth4 {
+    height: 300px;
+    width: 275px;
+  }
+  .sixth4 img {
+    height: 120px;
+  }
+  .sixth5 {
+    height: 300px;
+    width: 275px;
+  }
+  .sixth5 p {
+    font-size: 18px;
+  }
+  .sixth5 img {
+    height: 90px;
+    width: 200px;
+  }
+  .mainfifth {
+    margin-top: 10%;
+  }
+  .seventh h1 {
+    font-size: 35px;
+  }
+  .seventh p {
+    font-size: 25px;
+  }
+  .seventh1 h2 {
+    font-size: 30px;
+  }
+  .seventh1 input {
+    height: 50px;
+    width: 290px;
+    font-size: 25px;
+  }
+  #hire {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mainsixth {
+    margin-top: 3%;
+  }
+
+  footer {
+    margin-top: 5%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: black;
+    padding-top: 3%;
+    padding-bottom: 1%;
+  }
+  .footer1 {
+    display: flex;
+    gap: 10px;
+  }
+  .footer1 h1 {
+    font-size: 25px;
+  }
+  .footer1 img {
+    border-radius: 50%;
+    margin-top: -5%;
+  }
+  .footer1 img {
+    height: 50px;
+    width: 50px;
+  }
+  .footer2 p {
+    font-size: 20px;
+  }
+  .footer3 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .footer3 i {
+    font-size: 26px;
+  }
+  .footer3 i:hover {
+    scale: 1.2;
+    transition: 0.5s;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .mainmaincontainer {
+    height: 300vh;
+  }
+  .mainfirst {
+    gap: 100px;
+  }
+  ul {
+    gap: 30px;
+  }
+  .first1 h1 {
+    font-size: 30px;
+  }
+  .first1 i {
+    font-size: 25px;
+  }
+  ul a {
+    font-size: 20px;
+  }
+  .second1 h1 {
+    font-size: 30px;
+  }
+  .mainsecond {
+    gap: 50px;
+  }
+  .second1 pre {
+    font-size: 18px;
+  }
+  .second2 img {
+    height: 250px;
+    width: 250px;
+  }
+  .third1 h1 {
+    font-size: 30px;
+  }
+
+  .third1 p {
+    font-size: 20px;
+  }
+
+  .mainfourth {
+    gap: 90px;
+  }
+  .mainfourth img {
+    height: 100px;
+    width: 100px;
+  }
+  .mainfifth {
+    margin-top: 15%;
+  }
+  .mainfifth h1 {
+    font-size: 28px;
+  }
+  .sixth2 {
+    gap: 20px;
+  }
+  .sixth3 {
+    height: 225px;
+    width: 200px;
+  }
+  .sixth3 p {
+    font-size: 15px;
+  }
+  .sixth3 img {
+    height: 40px;
+  }
+  .sixth4 {
+    height: 225px;
+    width: 200px;
+  }
+  .sixth4 p {
+    font-size: 15px;
+  }
+  .sixth5 {
+    height: 225px;
+    width: 200px;
+  }
+  .sixth5 img {
+    height: 50px;
+  }
+  .sixth5 p {
+    font-size: 13px;
+  }
+  .seventh1 input {
+    height: 50px;
+    width: 280px;
+  }
+  #hire {
+    display: flex;
+    justify-content: center;
+  }
+  footer {
+    margin-top: 5%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+    padding-top: 4%;
+    padding-bottom: 3%;
+  }
+  .footer1 {
+    display: flex;
+    gap: 10px;
+  }
+  .footer1 h1 {
+    font-size: 23px;
+    margin-top: 7%;
+  }
+
+  .footer1 img {
+    height: 80px;
+    width: 80px;
+  }
+  .footer2 p {
+    font-size: 23px;
+  }
+  .footer3 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .footer3 i {
+    font-size: 25px;
+  }
+  .footer3 i:hover {
+    scale: 1.2;
+    transition: 0.5s;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .first1 h1 {
+    font-size: 35px;
+  }
+  .mainfirst {
+    gap: 170px;
+  }
+  ul {
+    flex-direction: column;
+    display: none;
+  }
+  .mainsecond {
+    gap: 5px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .second1 pre {
+    font-size: 17px;
+  }
+  .second2 img {
+    height: 250px;
+    width: 250px;
+    margin-top: 5%;
+  }
+  .second11 {
+    display: flex;
+    justify-content: center;
+  }
+  .second11 button {
+    width: 220px;
+  }
+  .mainthird {
+    margin-top: 5%;
+  }
+  .mainfourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 5%;
+  }
+  .mainfourth img {
+    height: 150px;
+    width: 150px;
+  }
+  .mainfifth {
+    margin-top: 10%;
+  }
+  .mainsixth {
+    margin-top: 5%;
+  }
+  .sixth1 p {
+    font-size: 18px;
+  }
+  .sixth1 h1 {
+    font-size: 24px;
+  }
+  .sixth2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+
+  .sixth3 {
+    height: 300px;
+    width: 300px;
+  }
+  .sixth4 {
+    height: 300px;
+    width: 300px;
+  }
+  .sixth5 {
+    height: 300px;
+    width: 300px;
+  }
+  .seventh {
+    margin-top: 15%;
+  }
+  .seventh p {
+    margin-top: 5%;
+  }
+  .seventh h1 {
+    font-size: 25px;
+  }
+  .seventh1 {
+    margin-top: 5%;
+  }
+  .seventh1 input {
+    height: 40px;
+    width: 260px;
+    font-size: 22px;
+  }
+  #hire button {
+    width: 300px;
+  }
+  #hire {
+    display: flex;
+    justify-content: center;
+  }
+  footer {
     margin-top: 5%;
     color: white;
     display: flex;
@@ -876,190 +1495,183 @@ footer{
     background-color: black;
     padding-top: 7%;
     padding-bottom: 3%;
-    }
-    .footer1{
+  }
+  .footer1 {
     display: flex;
     gap: 10px;
-        
-    }
-    .footer1 h1{
-        font-size: 23px;
-        margin-top: 7%;
-    }
-   
-    .footer1 img{
-        height: 80px;
-        width: 80px;
+  }
+  .footer1 h1 {
+    font-size: 23px;
+    margin-top: 7%;
+  }
 
-    }
-    .footer2 p{
+  .footer1 img {
+    height: 80px;
+    width: 80px;
+  }
+  .footer2 p {
     font-size: 19px;
-    }
-    .footer3{
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-    }
-    .footer3 i{
-    font-size: 25px;
-   
-    }
-    .footer3 i:hover{
-        scale: 1.2;
-        transition: 0.5s;
-    }
-
-}
-
-@media only screen and (max-width:376px){
-    .second1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 5%;
-    }
-.second1 h1{
-    font-size: 25px;
-}
-.second1 pre{
-    font-size: 15px;
-}
-.second11 button{
-width: 170px;
-}
-.third1 h1{
-    font-size: 25px;
-}
-.third1 p{
-    font-size: 15px;
-    margin-top: 5%;
-}
-.mainfourth{
-    margin-top: 15%;
-}
-.mainfourth img{
-    height: 130px;
-    width: 130px;
-}
-.mainfifth h1,h2{
-    font-size: 25px;
-}
-.mainsixth h1{
-    font-size: 25px;
-}
-#hire{
+  }
+  .footer3 {
     display: flex;
     justify-content: center;
+    gap: 15px;
+  }
+  .footer3 i {
+    font-size: 25px;
+  }
+  .footer3 i:hover {
+    scale: 1.2;
+    transition: 0.5s;
+  }
 }
-.seventh1 input{
+
+@media only screen and (max-width: 376px) {
+  .second1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .second1 h1 {
+    font-size: 25px;
+  }
+  .second1 pre {
+    font-size: 15px;
+  }
+  .second11 button {
+    width: 170px;
+  }
+  .third1 h1 {
+    font-size: 25px;
+  }
+  .third1 p {
+    font-size: 15px;
+    margin-top: 5%;
+  }
+  .mainfourth {
+    margin-top: 15%;
+  }
+  .mainfourth img {
+    height: 130px;
+    width: 130px;
+  }
+  .mainfifth h1,
+  h2 {
+    font-size: 25px;
+  }
+  .mainsixth h1 {
+    font-size: 25px;
+  }
+  #hire {
+    display: flex;
+    justify-content: center;
+  }
+  .seventh1 input {
     width: 220px;
     margin-top: 13%;
     height: 40px;
-}
-.seventh1 button{
+  }
+  .seventh1 button {
     width: 250px;
-
-}
-.seventh form{
+  }
+  .seventh form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-#hire button{
+  }
+  #hire button {
     width: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.footer2 p{
+  }
+  .footer2 p {
     font-size: 14px;
+  }
 }
-
-}
-@media only screen and (max-width:321px){
-    .mainsecond{
-        gap: 30px;
-    }
-.second1 h3{
+@media only screen and (max-width: 321px) {
+  .mainsecond {
+    gap: 30px;
+  }
+  .second1 h3 {
     font-size: 23px;
-}
-.second1 pre{
+  }
+  .second1 pre {
     font-size: 13px;
-}
-.second11 button{
+  }
+  .second11 button {
     height: 40px;
     width: 130px;
-}
-.second2 img{
+  }
+  .second2 img {
     height: 200px;
     width: 200px;
-}
-.third1{
+  }
+  .third1 {
     margin-top: 5%;
-}
-.mainfourth{
+  }
+  .mainfourth {
     gap: 40px;
-}
-.mainfourth img{
+  }
+  .mainfourth img {
     height: 125px;
     width: 125px;
-}
-.mainfifth h1{
+  }
+  .mainfifth h1 {
     font-size: 23px;
-}
-.mainfifth h2{
+  }
+  .mainfifth h2 {
     font-size: 23px;
-}
-.sixth1 p{
+  }
+  .sixth1 p {
     font-size: 15px;
-} 
+  }
 
-.sixth3{
-height: 250px;
-width: 250px;
-}
-
-.sixth4{
+  .sixth3 {
     height: 250px;
     width: 250px;
-}
-.sixth5{
+  }
+
+  .sixth4 {
     height: 250px;
     width: 250px;
-}
-.seventh{
+  }
+  .sixth5 {
+    height: 250px;
+    width: 250px;
+  }
+  .seventh {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-#hire{
+  }
+  #hire {
     display: flex;
     justify-content: center;
-}
-.seventh h1{
+  }
+  .seventh h1 {
     font-size: 23px;
-}
-.seventh p{
+  }
+  .seventh p {
     font-size: 18px;
-}
-#hire{
+  }
+  #hire {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-#hire button{
+  }
+  #hire button {
     width: 230px;
-}
+  }
 
-.seventh input{
+  .seventh input {
     height: 40px;
     width: 200px;
     margin-top: 13%;
+  }
+  .footer2 p {
+    font-size: 13px;
+  }
 }
-.footer2 p{
-font-size: 13px;
-}
-}
-
-
